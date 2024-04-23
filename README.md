@@ -1,6 +1,6 @@
 /*---------------------------------------------------------------------------------------------------------------*/
 
-                    Simple CRUD Registration and Login GUI using Netbeans and MySQL.
+                    Simple CRUD Registration and Login GUI using MySQL and NetBeans.
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
