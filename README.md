@@ -8,7 +8,7 @@ Version: 1.0
 
 Expect bugs and errors.
 
-Security features - salt, hash - yet to be implemented.
+Security features - salt, hash etc - yet to be implemented.
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
