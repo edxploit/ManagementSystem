@@ -1,87 +1,64 @@
-/*---------------------------------------------------------------------------------------------------------------*/
+# CRUD Registration and Login GUI using MySQL and NetBeans
 
-                    Simple CRUD Registration and Login GUI using MySQL and NetBeans.
+**Version:** 1.0 (*Expect bugs and errors*)
 
-/*---------------------------------------------------------------------------------------------------------------*/
+**[IMPORTANT]**: Security features such as salt and hash are yet to be implemented.
 
-Version: 1.0
+## Overview
 
-Expect bugs and errors.
+This project is a CRUD (Create, Read, Update, Delete) registration and login system developed using MySQL and NetBeans. Below are the key features and components showcased in this project:
 
-Security features - salt, hash etc - yet to be implemented.
+### Features:
+- User registration and login functionalities
+- Secure handling of sensitive information (to be implemented)
+- User-friendly graphical user interface (GUI)
 
-/*---------------------------------------------------------------------------------------------------------------*/
+## Installation
 
-Links:
+To run this project, you will need the following prerequisites:
 
-#jdk-22.jdk
-https://www.oracle.com/java/technologies/downloads/#jdk22-mac
+- **Java Development Kit (JDK) 22**: [Download JDK 22](https://www.oracle.com/java/technologies/downloads/#jdk22-mac)
+- **MySQL Connector/J 8.0.32**: [Download Connector/J 8.0.32](https://downloads.mysql.com/archives/c-j/)
+- **Apache NetBeans 16**: [Download Apache NetBeans 16](https://netbeans.apache.org/front/main/download/nb16/index.html)
+- **XAMPP for OS X 8.0.28, 8.1.17 & 8.2.4**: [Download XAMPP](https://www.apachefriends.org/download.html)
 
-#mysql-connector-j-8.0.32.zip
-https://downloads.mysql.com/archives/c-j/
+## Screenshots
 
-<img width="1285" alt="Screenshot 2024-04-23 at 3 21 14 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/0a3922f2-1458-4824-857a-296e1f33ec9c">
+### Login Page
+![Login Page](https://github.com/edxploit/netbeans-management-system/assets/43484396/81ae365d-d068-4fc2-976e-de7b5bbb12e0)
 
-#Apache NetBeans 16
-https://netbeans.apache.org/front/main/download/nb16/index.html
+### Sign Up Page
+![Sign Up Page](https://github.com/edxploit/netbeans-management-system/assets/43484396/bf02d5c5-7f57-4d28-b8e7-0a79e9f127ea)
 
-<img width="339" alt="Screenshot 2024-04-23 at 3 23 19 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/eed4db45-3e6f-4331-aa06-519b7f060753">
+### Database Structure
+![Database Structure](https://github.com/edxploit/netbeans-management-system/assets/43484396/89ee7fc7-b312-4943-bceb-485a9cb8090c)
 
-#XAMPP for OS X 8.0.28, 8.1.17 & 8.2.4
-https://www.apachefriends.org/download.html
+### New Account Registration
+![New Account Registration](https://github.com/edxploit/netbeans-management-system/assets/43484396/6fd1b27f-03f6-423e-8a50-8f808d815147)
 
-<img width="605" alt="Screenshot 2024-04-23 at 3 25 53 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/11f4f999-cd99-4467-81fb-d9d67d5204fc">
+### User Home Page
+![User Home Page](https://github.com/edxploit/netbeans-management-system/assets/43484396/e3d04fbe-0281-4927-84cd-1c21fcfb1716)
 
-/*---------------------------------------------------------------------------------------------------------------*/
+### Table Data Insertion
+![Table Data Insertion](https://github.com/edxploit/netbeans-management-system/assets/43484396/f38e54e1-2e6a-4546-9b59-2d688a780479)
 
-/*---------------------------------------------------------------------------------------------------------------*/
+### Connecting Table with Database
+![Connecting Table with Database](https://github.com/edxploit/netbeans-management-system/assets/43484396/b164726f-1526-46e7-ac2b-c50fe89e2a1f)
 
-#Login Page
+### User Database
+![User Database](https://github.com/edxploit/netbeans-management-system/assets/43484396/8831a6a8-a7e0-4b72-8b75-4fdc4897661c)
 
-<img width="494" alt="Screenshot 2024-04-23 at 3 30 51 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/81ae365d-d068-4fc2-976e-de7b5bbb12e0">
+## Usage
 
-/*---------------------------------------------------------------------------------------------------------------*/
+1. Clone this repository.
+2. Open the project in Apache NetBeans.
+3. Set up your MySQL database and configure the connection.
+4. Run the project.
 
-#Sign Up Page
+## Contributing
 
-<img width="494" alt="Screenshot 2024-04-23 at 3 32 18 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/bf02d5c5-7f57-4d28-b8e7-0a79e9f127ea">
+Contributions are welcome! Feel free to open a pull request.
 
-/*---------------------------------------------------------------------------------------------------------------*/
+## License
 
-#[user] Database Structure
-
-<img width="874" alt="Screenshot 2024-04-23 at 3 32 54 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/89ee7fc7-b312-4943-bceb-485a9cb8090c">
-
-/*---------------------------------------------------------------------------------------------------------------*/
-
-#New Account Registration
-
-<img width="494" alt="Screenshot 2024-04-23 at 3 34 11 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/6fd1b27f-03f6-423e-8a50-8f808d815147">
-
-/*---------------------------------------------------------------------------------------------------------------*/
-
-#User Home Page
-
-<img width="605" alt="Screenshot 2024-04-23 at 3 35 00 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/e3d04fbe-0281-4927-84cd-1c21fcfb1716">
-
-/*---------------------------------------------------------------------------------------------------------------*/
-
-#Table Data Insert
-
-<img width="1083" alt="Screenshot 2024-04-23 at 3 35 48 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/f38e54e1-2e6a-4546-9b59-2d688a780479">
-
-<img width="285" alt="Screenshot 2024-04-23 at 3 37 32 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/c97b25fe-caa2-412a-bfc2-7f9a17630ada">
-
-/*---------------------------------------------------------------------------------------------------------------*/
-
-#Table Connecting with Database
-
-<img width="707" alt="Screenshot 2024-04-23 at 3 39 10 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/b164726f-1526-46e7-ac2b-c50fe89e2a1f">
-
-/*---------------------------------------------------------------------------------------------------------------*/
-
-#[user_db] Database 
-
-<img width="1187" alt="Screenshot 2024-04-23 at 3 40 10 AM" src="https://github.com/edxploit/netbeans-management-system/assets/43484396/8831a6a8-a7e0-4b72-8b75-4fdc4897661c">
-
-/*---------------------------------------------------------------------------------------------------------------*/
+This project is licensed under the [MIT License](LICENSE).
